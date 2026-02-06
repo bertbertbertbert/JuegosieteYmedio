@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: retro;
+    
+ 
+}
+
+@font-face {
+    font-family: retroTitulo;
+    src: url(SixtyfourConvergence-Regular.ttf);
+  }
+  @font-face {
+    font-family: retro;
+    src: url(ChakraPetch-Regular.ttf);
+  }
+
+
+button {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 1.5em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 3em;
+    color: white;
+    font-family: retroTitulo;
+}
+
+#nombres {
+    font-size: 1em;
+}
+.nombreJugadores{
+    font-size: 1.5em;
+}
+#contenedorNombresYJugadorDos{
+    position: absolute;
+    right: 100px;
+    top: 10px;
+}
+
+#start {
+    font-size: 2em;
+
+}
+
+#contendorPadre {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 85%;
+    background-color: black;
+    padding: 2%;
+    border-radius: 20px;
+    color: white;
+    border: 1px solid green;
+}
+
+
+
+.numero {
+    font-size: 3em;
+}
+
+#contenedorCentro{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contadorPartidasGanadas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 1.1em;
+    color: green;
+}
+
+#contenedorTexto{
+    width: 90%;
+    height: 450px;
+    padding: 10px;
+    background-color: black; 
+    color: green;
+    border: 2px solid green;
+    display: flex;
+    align-items: center;
+justify-content: center;
+font-size: 1.6em;
+font-weight: 800;
+}
+
+.contenedor {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+}
+
+
+#siguienteManga{
+    width: 70%;
+}
+#contenedorReiniciar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#reiniciar{
+    width: fit-content; height: fit-content;
+   justify-self: flex-end;
+}
+
+.contenedorCartasPartida{
+    width: 130px;
+}
+
+.nuevaCarta{
+    width: 80px; 
+    margin-bottom: 3px;
+}
+
+.cartas{
+    width: 150px;
+}

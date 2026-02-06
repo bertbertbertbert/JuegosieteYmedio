@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <title>Siete Y Medio</title>
+</head>
+<body>
+    <h1>SIETE Y MEDIO</h1><br>
+  <div id="contenedorNombresYJugadorDos">
+    <!-- <button id="añadirSegundoJugador">AÑADIR SEGUNDO JUGADOR</button></div>  -->
+    <button id="nombres">AÑADIR NOMBRE</button>
+  </div>
+   
+    <div id="contendorPadre">
+      <div id="contenedorCartasJugador" class="contenedorCartasPartida"></div>
+    <div class="contenedor" id="contenedorJugadorUno">
+        <p class="nombreJugadores" id="nombreJugador1">JUGADOR 1</p>
+    <button id="jugadorUno">JUGAR</button><br><br>
+    <img class="cartas" id="cartaJugadorUno" src="cartas/revers.png"></img><br>
+    <p>TOTAL</p><p class="numero" id="totalJugadorUno">#</p><br>
+    <button id="plantarseJugadorUno">PLANTARSE</button><br>
+    <p>VIDAS</p><p class="numero" id="vidasJugadorUno"></p>
+</div>
+
+<div id="contenedorCentro"><button id="start">EMPEZAR RONDA</button> <br><br><div id="contenedorTexto"></div>
+<button id="siguienteManga">SIGUIENTE</button>
+<div id="contadorPartidasGanadas">
+<p>Partidas ganadas: <p id="partidasGanadas">#</p></p><p>Partidas perdidas: <p id="partidasPerdidas">#</p></p>
+</div> 
+<div id="contenedorReiniciar">
+<button id="reiniciar">REINICIAR</button>
+</div>
+</div>
+<div class="contenedor" id="contenedorJugadorDos">
+    <bp class="nombreJugadores" id="jugadorDosOCpu">CPU</bp>
+    <button  id="jugadorDosOCPU">JUGAR</button><br><br>
+    <img class="cartas" id="cartaJugadorDos" src="cartas/revers.png"></img><br>
+    <p>TOTAL</p><p class="numero" id="totalJugadorDos">#</p><br>
+    <button id="plantarseJugadorDos">PLANTARSE</button><br>
+    <p>VIDAS</p><p class="numero" id="vidasJugadorDos"></p>
+</div>
+<div id="contenedorCartasCPU" class="contenedorCartasPartida"></div>
+</div>
+<script src="scriptDos.js"></script>
+<!-- <script src="script.js"></script>
+ --></body>
+</html>
